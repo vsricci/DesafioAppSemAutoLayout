@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8184BA5F1F3D569D004C10D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA5E1F3D569D004C10D3 /* AppDelegate.swift */; };
+		8184BA611F3D569E004C10D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA601F3D569E004C10D3 /* ViewController.swift */; };
+		8184BA641F3D569E004C10D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA621F3D569E004C10D3 /* Main.storyboard */; };
+		8184BA661F3D569E004C10D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA651F3D569E004C10D3 /* Assets.xcassets */; };
+		8184BA691F3D569E004C10D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA671F3D569E004C10D3 /* LaunchScreen.storyboard */; };
+		8184BA741F3D569E004C10D3 /* ListaVeiculosMoobieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA731F3D569E004C10D3 /* ListaVeiculosMoobieTests.swift */; };
+		8184BA7F1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA7E1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8184BA701F3D569E004C10D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8184BA531F3D569D004C10D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8184BA5A1F3D569D004C10D3;
+			remoteInfo = ListaVeiculosMoobie;
+		};
+		8184BA7B1F3D569E004C10D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8184BA531F3D569D004C10D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8184BA5A1F3D569D004C10D3;
+			remoteInfo = ListaVeiculosMoobie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8184BA5B1F3D569D004C10D3 /* ListaVeiculosMoobie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaVeiculosMoobie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8184BA5E1F3D569D004C10D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8184BA601F3D569E004C10D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8184BA631F3D569E004C10D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8184BA651F3D569E004C10D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8184BA681F3D569E004C10D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8184BA6A1F3D569E004C10D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8184BA6F1F3D569E004C10D3 /* ListaVeiculosMoobieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaVeiculosMoobieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8184BA731F3D569E004C10D3 /* ListaVeiculosMoobieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaVeiculosMoobieTests.swift; sourceTree = "<group>"; };
+		8184BA751F3D569E004C10D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8184BA7A1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListaVeiculosMoobieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8184BA7E1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaVeiculosMoobieUITests.swift; sourceTree = "<group>"; };
+		8184BA801F3D569E004C10D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8184BA581F3D569D004C10D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA6C1F3D569E004C10D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA771F3D569E004C10D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8184BA521F3D569D004C10D3 = {
+			isa = PBXGroup;
+			children = (
+				8184BA5D1F3D569D004C10D3 /* ListaVeiculosMoobie */,
+				8184BA721F3D569E004C10D3 /* ListaVeiculosMoobieTests */,
+				8184BA7D1F3D569E004C10D3 /* ListaVeiculosMoobieUITests */,
+				8184BA5C1F3D569D004C10D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8184BA5C1F3D569D004C10D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8184BA5B1F3D569D004C10D3 /* ListaVeiculosMoobie.app */,
+				8184BA6F1F3D569E004C10D3 /* ListaVeiculosMoobieTests.xctest */,
+				8184BA7A1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8184BA5D1F3D569D004C10D3 /* ListaVeiculosMoobie */ = {
+			isa = PBXGroup;
+			children = (
+				8184BA5E1F3D569D004C10D3 /* AppDelegate.swift */,
+				8184BA601F3D569E004C10D3 /* ViewController.swift */,
+				8184BA621F3D569E004C10D3 /* Main.storyboard */,
+				8184BA651F3D569E004C10D3 /* Assets.xcassets */,
+				8184BA671F3D569E004C10D3 /* LaunchScreen.storyboard */,
+				8184BA6A1F3D569E004C10D3 /* Info.plist */,
+			);
+			path = ListaVeiculosMoobie;
+			sourceTree = "<group>";
+		};
+		8184BA721F3D569E004C10D3 /* ListaVeiculosMoobieTests */ = {
+			isa = PBXGroup;
+			children = (
+				8184BA731F3D569E004C10D3 /* ListaVeiculosMoobieTests.swift */,
+				8184BA751F3D569E004C10D3 /* Info.plist */,
+			);
+			path = ListaVeiculosMoobieTests;
+			sourceTree = "<group>";
+		};
+		8184BA7D1F3D569E004C10D3 /* ListaVeiculosMoobieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8184BA7E1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.swift */,
+				8184BA801F3D569E004C10D3 /* Info.plist */,
+			);
+			path = ListaVeiculosMoobieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8184BA5A1F3D569D004C10D3 /* ListaVeiculosMoobie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8184BA831F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobie" */;
+			buildPhases = (
+				8184BA571F3D569D004C10D3 /* Sources */,
+				8184BA581F3D569D004C10D3 /* Frameworks */,
+				8184BA591F3D569D004C10D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListaVeiculosMoobie;
+			productName = ListaVeiculosMoobie;
+			productReference = 8184BA5B1F3D569D004C10D3 /* ListaVeiculosMoobie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8184BA6E1F3D569E004C10D3 /* ListaVeiculosMoobieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8184BA861F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobieTests" */;
+			buildPhases = (
+				8184BA6B1F3D569E004C10D3 /* Sources */,
+				8184BA6C1F3D569E004C10D3 /* Frameworks */,
+				8184BA6D1F3D569E004C10D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8184BA711F3D569E004C10D3 /* PBXTargetDependency */,
+			);
+			name = ListaVeiculosMoobieTests;
+			productName = ListaVeiculosMoobieTests;
+			productReference = 8184BA6F1F3D569E004C10D3 /* ListaVeiculosMoobieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8184BA791F3D569E004C10D3 /* ListaVeiculosMoobieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8184BA891F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobieUITests" */;
+			buildPhases = (
+				8184BA761F3D569E004C10D3 /* Sources */,
+				8184BA771F3D569E004C10D3 /* Frameworks */,
+				8184BA781F3D569E004C10D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8184BA7C1F3D569E004C10D3 /* PBXTargetDependency */,
+			);
+			name = ListaVeiculosMoobieUITests;
+			productName = ListaVeiculosMoobieUITests;
+			productReference = 8184BA7A1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8184BA531F3D569D004C10D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vinicius;
+				TargetAttributes = {
+					8184BA5A1F3D569D004C10D3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 889286V7CX;
+						ProvisioningStyle = Automatic;
+					};
+					8184BA6E1F3D569E004C10D3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 889286V7CX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8184BA5A1F3D569D004C10D3;
+					};
+					8184BA791F3D569E004C10D3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 889286V7CX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8184BA5A1F3D569D004C10D3;
+					};
+				};
+			};
+			buildConfigurationList = 8184BA561F3D569D004C10D3 /* Build configuration list for PBXProject "ListaVeiculosMoobie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8184BA521F3D569D004C10D3;
+			productRefGroup = 8184BA5C1F3D569D004C10D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8184BA5A1F3D569D004C10D3 /* ListaVeiculosMoobie */,
+				8184BA6E1F3D569E004C10D3 /* ListaVeiculosMoobieTests */,
+				8184BA791F3D569E004C10D3 /* ListaVeiculosMoobieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8184BA591F3D569D004C10D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184BA691F3D569E004C10D3 /* LaunchScreen.storyboard in Resources */,
+				8184BA661F3D569E004C10D3 /* Assets.xcassets in Resources */,
+				8184BA641F3D569E004C10D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA6D1F3D569E004C10D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA781F3D569E004C10D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8184BA571F3D569D004C10D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184BA611F3D569E004C10D3 /* ViewController.swift in Sources */,
+				8184BA5F1F3D569D004C10D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA6B1F3D569E004C10D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184BA741F3D569E004C10D3 /* ListaVeiculosMoobieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8184BA761F3D569E004C10D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8184BA7F1F3D569E004C10D3 /* ListaVeiculosMoobieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8184BA711F3D569E004C10D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8184BA5A1F3D569D004C10D3 /* ListaVeiculosMoobie */;
+			targetProxy = 8184BA701F3D569E004C10D3 /* PBXContainerItemProxy */;
+		};
+		8184BA7C1F3D569E004C10D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8184BA5A1F3D569D004C10D3 /* ListaVeiculosMoobie */;
+			targetProxy = 8184BA7B1F3D569E004C10D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8184BA621F3D569E004C10D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8184BA631F3D569E004C10D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8184BA671F3D569E004C10D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8184BA681F3D569E004C10D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8184BA811F3D569E004C10D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8184BA821F3D569E004C10D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8184BA841F3D569E004C10D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8184BA851F3D569E004C10D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8184BA871F3D569E004C10D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListaVeiculosMoobie.app/ListaVeiculosMoobie";
+			};
+			name = Debug;
+		};
+		8184BA881F3D569E004C10D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListaVeiculosMoobie.app/ListaVeiculosMoobie";
+			};
+			name = Release;
+		};
+		8184BA8A1F3D569E004C10D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ListaVeiculosMoobie;
+			};
+			name = Debug;
+		};
+		8184BA8B1F3D569E004C10D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 889286V7CX;
+				INFOPLIST_FILE = ListaVeiculosMoobieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swiftprojetcs.ListaVeiculosMoobieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ListaVeiculosMoobie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8184BA561F3D569D004C10D3 /* Build configuration list for PBXProject "ListaVeiculosMoobie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8184BA811F3D569E004C10D3 /* Debug */,
+				8184BA821F3D569E004C10D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8184BA831F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8184BA841F3D569E004C10D3 /* Debug */,
+				8184BA851F3D569E004C10D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8184BA861F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8184BA871F3D569E004C10D3 /* Debug */,
+				8184BA881F3D569E004C10D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8184BA891F3D569E004C10D3 /* Build configuration list for PBXNativeTarget "ListaVeiculosMoobieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8184BA8A1F3D569E004C10D3 /* Debug */,
+				8184BA8B1F3D569E004C10D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8184BA531F3D569D004C10D3 /* Project object */;
+}
