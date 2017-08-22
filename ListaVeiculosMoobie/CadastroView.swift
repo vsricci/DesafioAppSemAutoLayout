@@ -8,7 +8,10 @@
 
 import UIKit
 
-class CadastroView: UIView {
+
+
+
+class CadastroView: UIView, UITextFieldDelegate, UIScrollViewDelegate {
     
     var labelNome : UILabel = UILabel()
     var labelImagem : UILabel = UILabel()
@@ -34,11 +37,15 @@ class CadastroView: UIView {
     var emailUsuario : UITextField = UITextField()
     var botaoGaleria : UIButton = UIButton()
     var botaoCamera : UIButton = UIButton()
+    var senhaUsuario : UITextField = UITextField()
     
     var usuario = Usuario()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        
+        //layoutCadastro()
     }
     
     
@@ -62,90 +69,127 @@ class CadastroView: UIView {
         let screenHeight = UIScreen.main.bounds.height
         
         
+        self.backgroundColor = UIColor.green
+        
+        scroll.delegate = self
+        scroll.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         
         
-        imagemUsuario.frame = CGRect(x: 8, y: 8, width: screenWidth, height: screenHeight)
+        imagemUsuario.frame = CGRect(x: 8, y: 8, width: screenWidth / 2, height: 60)
         imagemUsuario.image = UIImage(named: "")
-        botaoCamera.frame = CGRect(x: imagemUsuario.frame.minX, y: imagemUsuario.frame.maxY, width: 30, height: 30)
+        botaoCamera.frame = CGRect(x: 16, y: imagemUsuario.frame.maxY, width: 30, height: 30)
+        imagemUsuario.clipsToBounds = true
+        botaoCamera.setTitle("Tirar Foto", for: .normal)
         
         
-        botaoGaleria.frame = CGRect(x: imagemUsuario.frame.minX, y: imagemUsuario.frame.maxY, width: 30, height: 30)
+        botaoGaleria.frame = CGRect(x: botaoCamera.frame.minX, y: imagemUsuario.frame.maxY, width: 30, height: 30)
+        botaoGaleria.clipsToBounds = true
+        botaoCamera.setTitle("Selecionar da Galeria", for: .normal)
         
-        labelNome.frame = CGRect(x: imagemUsuario.frame.maxX, y: imagemUsuario.frame.maxY, width: screenWidth, height: screenHeight)
+        labelNome.frame = CGRect(x: 8, y: botaoGaleria.frame.maxY, width: screenWidth, height: 30)
+        labelNome.clipsToBounds = true
+        labelNome.text = "Digite o Nome:"
         
-        nomeUsuario.frame =  CGRect(x: labelNome.frame.minX, y: labelNome.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        labelSobreNome.frame = CGRect(x: nomeUsuario.frame.minX, y: nomeUsuario.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        sobreNomeUsuario.frame = CGRect(x: labelSobreNome.frame.minX, y: labelSobreNome.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        labelEmail.frame = CGRect(x: sobreNomeUsuario.frame.minX, y: sobreNomeUsuario.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        emailUsuario.frame = CGRect(x: labelEmail.frame.minX, y: emailUsuario.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        labelTelefone.frame =  CGRect(x: emailUsuario.frame.minX, y: emailUsuario.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        telefoneUsuario.frame = CGRect(x: labelTelefone.frame.minX, y: labelTelefone.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        labelIdade.frame =  CGRect(x: telefoneUsuario.frame.minX, y: telefoneUsuario.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        textFieldIdade.frame = CGRect(x: labelIdade.frame.minX, y: labelIdade.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        
-        labelSexo.frame = CGRect(x: textFieldIdade.frame.minX, y: textFieldIdade.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        textFieldSexo.frame = CGRect(x: labelSexo.frame.minX, y: labelSexo.frame.minY, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        
-        botaoFacebook.frame = CGRect(x: textFieldSexo.frame.maxX, y: textFieldSexo.frame.maxY, width: screenWidth, height: screenHeight)
-        
-        botaoSalvar.frame = CGRect(x: botaoFacebook.frame.minX, y: botaoFacebook.frame.maxY, width: screenWidth, height: screenHeight)
-        
-        
-        labelNome.text = "Dogite o nome: "
-        labelNome.tintColor = UIColor.black
-        
-        labelSobreNome.text = "Dogite o SobreNome: "
-        labelSobreNome.tintColor = UIColor.black
-        
-        labelEmail.text = "Dogite o email: "
-        labelEmail.tintColor = UIColor.black
-        
-        
+        nomeUsuario.frame =  CGRect(x: 8, y: labelNome.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        nomeUsuario.clipsToBounds = true
         nomeUsuario.placeholder = "Nome:"
-        sobreNomeUsuario.placeholder = "SobreNome"
+        
+        
+        labelSobreNome.frame = CGRect(x: 8, y: nomeUsuario.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelSobreNome.clipsToBounds = true
+        labelSobreNome.text = "Digite o Sobrenome:"
+        
+        sobreNomeUsuario.frame = CGRect(x: 8, y: labelSobreNome.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        sobreNomeUsuario.clipsToBounds = true
+        sobreNomeUsuario.placeholder = "SobreNome:"
+        
+        labelEmail.frame = CGRect(x: 8, y: sobreNomeUsuario.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelEmail.clipsToBounds = true
+        labelEmail.text = "Digite o Email:"
+        
+        emailUsuario.frame = CGRect(x: 8, y: labelEmail.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        emailUsuario.clipsToBounds = true
         emailUsuario.placeholder = "Email:"
+        
+        labelTelefone.frame =  CGRect(x: 8, y: emailUsuario.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelTelefone.clipsToBounds = true
+        labelTelefone.text = "Diguite o Telefone:"
+        
+        telefoneUsuario.frame = CGRect(x: 8, y: labelTelefone.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        telefoneUsuario.clipsToBounds = true
         telefoneUsuario.placeholder = "Telefone:"
+        
+        labelIdade.frame =  CGRect(x: 8, y: telefoneUsuario.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelIdade.clipsToBounds = true
+        labelIdade.text = "Digite a Idade:"
+        
+        textFieldIdade.frame = CGRect(x: 8, y: labelIdade.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        textFieldIdade.clipsToBounds = true
         textFieldIdade.placeholder = "Idade:"
-        botaoFacebook.setTitle("Login com os dados do Facebook", for: .normal)
-        botaoSalvar.setTitle("Cadastrar", for: .normal)
+        
+        labelSexo.frame = CGRect(x: 8, y: textFieldIdade.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelSexo.clipsToBounds = true
+        labelSexo.text = "Digite o sexo:"
+        
+        
+        
+        textFieldSexo.frame = CGRect(x: 8, y: labelSexo.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        textFieldSexo.clipsToBounds = true
+        textFieldSexo.placeholder = "Sexo:"
         
         
         
         
-        addSubview(imagemUsuario)
-        addSubview(botaoCamera)
-        addSubview(botaoGaleria)
-        addSubview(labelNome)
-        addSubview(nomeUsuario)
-        addSubview(labelSobreNome)
-        addSubview(sobreNomeUsuario)
-        addSubview(labelEmail)
-        addSubview(labelEmail)
-        addSubview(labelTelefone)
-        addSubview(telefoneUsuario)
-        addSubview(labelIdade)
-        addSubview(textFieldIdade)
-        addSubview(labelSexo)
-        addSubview(textFieldSexo)
-        addSubview(botaoFacebook)
-        addSubview(botaoSalvar)
+        
+        labelSenha.frame = CGRect(x: 8, y: textFieldSexo.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        labelSenha.clipsToBounds = true
+        labelSenha.text = "Digite a Senha:"
         
         
         
+        senhaUsuario.frame = CGRect(x: 8, y: labelSenha.frame.maxY, width: UIScreen.main.bounds.width, height: 30)
+        senhaUsuario.clipsToBounds = true
+        senhaUsuario.placeholder = "Senha:"
+
+        
+        
+        botaoFacebook.frame = CGRect(x: 0, y: senhaUsuario.frame.maxY, width: screenWidth, height: 30)
+        botaoFacebook.clipsToBounds = true
+        botaoFacebook.setTitle("Logar com Facebook", for: .normal)
+        
+        botaoSalvar.frame = CGRect(x: botaoFacebook.frame.minX, y: botaoFacebook.frame.maxY, width: screenWidth, height: 30)
+        botaoSalvar.clipsToBounds = true
+        botaoSalvar.setTitle("CADASTRAR", for: .normal)
+        
+        
+        scroll.addSubview(imagemUsuario)
+        scroll.addSubview(botaoCamera)
+        scroll.addSubview(botaoGaleria)
+        scroll.addSubview(labelNome)
+        scroll.addSubview(nomeUsuario)
+        scroll.addSubview(labelSobreNome)
+        scroll.addSubview(sobreNomeUsuario)
+        scroll.addSubview(labelEmail)
+        scroll.addSubview(labelEmail)
+        scroll.addSubview(emailUsuario)
+        scroll.addSubview(labelTelefone)
+        scroll.addSubview(telefoneUsuario)
+        scroll.addSubview(labelIdade)
+        scroll.addSubview(textFieldIdade)
+        scroll.addSubview(labelSexo)
+        scroll.addSubview(textFieldSexo)
+        scroll.addSubview(labelSenha)
+        scroll.addSubview(senhaUsuario)
+        scroll.addSubview(botaoFacebook)
+        scroll.addSubview(botaoSalvar)
+        
+        scroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: 700)
+        addSubview(scroll)
         
     }
-
+    
+    
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D50027EFE149D6920A8F699 /* Pods_ListaVeiculosMoobie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A4269DF13E99BE35BA0BF3 /* Pods_ListaVeiculosMoobie.framework */; };
+		813996EE1F459514002466D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 813996ED1F459514002466D0 /* GoogleService-Info.plist */; };
+		813996F11F46406B002466D0 /* Extensoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813996F01F46406B002466D0 /* Extensoes.swift */; };
 		8184BA5F1F3D569D004C10D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA5E1F3D569D004C10D3 /* AppDelegate.swift */; };
 		8184BA611F3D569E004C10D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA601F3D569E004C10D3 /* ViewController.swift */; };
 		8184BA641F3D569E004C10D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA621F3D569E004C10D3 /* Main.storyboard */; };
@@ -21,8 +23,22 @@
 		8184BA961F3D57AE004C10D3 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA951F3D57AE004C10D3 /* Usuario.swift */; };
 		8184BA981F3D57E7004C10D3 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA971F3D57E7004C10D3 /* Carro.swift */; };
 		8184BA9A1F3E9995004C10D3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184BA991F3E9995004C10D3 /* CadastroViewController.swift */; };
-		8184BA9C1F3EAA9C004C10D3 /* GoogleService-Info-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA9B1F3EAA9C004C10D3 /* GoogleService-Info-7.plist */; };
 		8184BA9E1F3EAF40004C10D3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8184BA9D1F3EAF40004C10D3 /* .gitignore */; };
+		81D241071F48DC1700EFABE7 /* Marca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241061F48DC1700EFABE7 /* Marca.swift */; };
+		81D241091F48DC5D00EFABE7 /* MarcaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241081F48DC5D00EFABE7 /* MarcaView.swift */; };
+		81D2410B1F48E5DE00EFABE7 /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2410A1F48E5DE00EFABE7 /* MarcaViewController.swift */; };
+		81D2410D1F492F9F00EFABE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2410C1F492F9F00EFABE7 /* LoginViewController.swift */; };
+		81D2410F1F4B8BEF00EFABE7 /* ListaVeiculosMarcaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2410E1F4B8BEF00EFABE7 /* ListaVeiculosMarcaView.swift */; };
+		81D241111F4B8DB000EFABE7 /* ListaModeloVeiculosViewControlletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241101F4B8DB000EFABE7 /* ListaModeloVeiculosViewControlletViewController.swift */; };
+		81D241131F4B91E900EFABE7 /* ListaMarcaVeiculosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241121F4B91E900EFABE7 /* ListaMarcaVeiculosTableViewCell.swift */; };
+		81D241171F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81D241151F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodeld */; };
+		81D241191F4BCDF900EFABE7 /* DetalhesMarcaVeiculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241181F4BCDF900EFABE7 /* DetalhesMarcaVeiculoViewController.swift */; };
+		81D2411B1F4BCFE600EFABE7 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2411A1F4BCFE600EFABE7 /* Modelo.swift */; };
+		81D2411D1F4BD0A800EFABE7 /* ModeloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2411C1F4BD0A800EFABE7 /* ModeloTableViewCell.swift */; };
+		81D2411F1F4BD2DB00EFABE7 /* ModeloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2411E1F4BD2DB00EFABE7 /* ModeloView.swift */; };
+		81D241211F4BDE6000EFABE7 /* DetalheModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241201F4BDE6000EFABE7 /* DetalheModelo.swift */; };
+		81D241231F4BDF2100EFABE7 /* DetalheModeloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241221F4BDF2100EFABE7 /* DetalheModeloView.swift */; };
+		81D241251F4BE56100EFABE7 /* DetalhesModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D241241F4BE56100EFABE7 /* DetalhesModeloViewController.swift */; };
 		F521A19B8DC57ED6D5D3DDA0 /* Pods_ListaVeiculosMoobieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7317E4B959475C39A046C4 /* Pods_ListaVeiculosMoobieUITests.framework */; };
 		F7D6E589E9952B056B84DB0B /* Pods_ListaVeiculosMoobieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883C2C09D47F6A8E96F5CE7 /* Pods_ListaVeiculosMoobieTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +66,8 @@
 		4A7317E4B959475C39A046C4 /* Pods_ListaVeiculosMoobieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListaVeiculosMoobieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A4269DF13E99BE35BA0BF3 /* Pods_ListaVeiculosMoobie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListaVeiculosMoobie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6883C2C09D47F6A8E96F5CE7 /* Pods_ListaVeiculosMoobieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListaVeiculosMoobieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813996ED1F459514002466D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		813996F01F46406B002466D0 /* Extensoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensoes.swift; sourceTree = "<group>"; };
 		8184BA5B1F3D569D004C10D3 /* ListaVeiculosMoobie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaVeiculosMoobie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8184BA5E1F3D569D004C10D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8184BA601F3D569E004C10D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +87,22 @@
 		8184BA951F3D57AE004C10D3 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		8184BA971F3D57E7004C10D3 /* Carro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
 		8184BA991F3E9995004C10D3 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
-		8184BA9B1F3EAA9C004C10D3 /* GoogleService-Info-7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-7.plist"; sourceTree = "<group>"; };
 		8184BA9D1F3EAF40004C10D3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		81D241061F48DC1700EFABE7 /* Marca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marca.swift; sourceTree = "<group>"; };
+		81D241081F48DC5D00EFABE7 /* MarcaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaView.swift; sourceTree = "<group>"; };
+		81D2410A1F48E5DE00EFABE7 /* MarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaViewController.swift; sourceTree = "<group>"; };
+		81D2410C1F492F9F00EFABE7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81D2410E1F4B8BEF00EFABE7 /* ListaVeiculosMarcaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaVeiculosMarcaView.swift; sourceTree = "<group>"; };
+		81D241101F4B8DB000EFABE7 /* ListaModeloVeiculosViewControlletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaModeloVeiculosViewControlletViewController.swift; sourceTree = "<group>"; };
+		81D241121F4B91E900EFABE7 /* ListaMarcaVeiculosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaMarcaVeiculosTableViewCell.swift; sourceTree = "<group>"; };
+		81D241161F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListaVeiculosMoobie.xcdatamodel; sourceTree = "<group>"; };
+		81D241181F4BCDF900EFABE7 /* DetalhesMarcaVeiculoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMarcaVeiculoViewController.swift; sourceTree = "<group>"; };
+		81D2411A1F4BCFE600EFABE7 /* Modelo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		81D2411C1F4BD0A800EFABE7 /* ModeloTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloTableViewCell.swift; sourceTree = "<group>"; };
+		81D2411E1F4BD2DB00EFABE7 /* ModeloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloView.swift; sourceTree = "<group>"; };
+		81D241201F4BDE6000EFABE7 /* DetalheModelo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheModelo.swift; sourceTree = "<group>"; };
+		81D241221F4BDF2100EFABE7 /* DetalheModeloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheModeloView.swift; sourceTree = "<group>"; };
+		81D241241F4BE56100EFABE7 /* DetalhesModeloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesModeloViewController.swift; sourceTree = "<group>"; };
 		C2A736BE5511A45AAB509C29 /* Pods-ListaVeiculosMoobieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaVeiculosMoobieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListaVeiculosMoobieTests/Pods-ListaVeiculosMoobieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3EA127442B03752C4E4FBB6 /* Pods-ListaVeiculosMoobieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaVeiculosMoobieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListaVeiculosMoobieTests/Pods-ListaVeiculosMoobieTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7E68ECAF7083222FF3F7949 /* Pods-ListaVeiculosMoobieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaVeiculosMoobieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListaVeiculosMoobieUITests/Pods-ListaVeiculosMoobieUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +160,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		813996EF1F464018002466D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				813996F01F46406B002466D0 /* Extensoes.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		8184BA521F3D569D004C10D3 = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +193,9 @@
 		8184BA5D1F3D569D004C10D3 /* ListaVeiculosMoobie */ = {
 			isa = PBXGroup;
 			children = (
-				8184BA9B1F3EAA9C004C10D3 /* GoogleService-Info-7.plist */,
+				81D241141F4BC83500EFABE7 /* Data */,
+				813996EF1F464018002466D0 /* Util */,
+				813996ED1F459514002466D0 /* GoogleService-Info.plist */,
 				8184BA8E1F3D5708004C10D3 /* Controller */,
 				8184BA8D1F3D56FB004C10D3 /* Model */,
 				8184BA8C1F3D56F3004C10D3 /* View */,
@@ -192,6 +234,12 @@
 				8184BA8F1F3D575B004C10D3 /* SplashView.swift */,
 				8184BA911F3D577D004C10D3 /* CadastroView.swift */,
 				8184BA931F3D579A004C10D3 /* LoginView.swift */,
+				81D241081F48DC5D00EFABE7 /* MarcaView.swift */,
+				81D2410E1F4B8BEF00EFABE7 /* ListaVeiculosMarcaView.swift */,
+				81D241121F4B91E900EFABE7 /* ListaMarcaVeiculosTableViewCell.swift */,
+				81D2411C1F4BD0A800EFABE7 /* ModeloTableViewCell.swift */,
+				81D2411E1F4BD2DB00EFABE7 /* ModeloView.swift */,
+				81D241221F4BDF2100EFABE7 /* DetalheModeloView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -200,7 +248,10 @@
 			isa = PBXGroup;
 			children = (
 				8184BA951F3D57AE004C10D3 /* Usuario.swift */,
+				81D2411A1F4BCFE600EFABE7 /* Modelo.swift */,
 				8184BA971F3D57E7004C10D3 /* Carro.swift */,
+				81D241061F48DC1700EFABE7 /* Marca.swift */,
+				81D241201F4BDE6000EFABE7 /* DetalheModelo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -209,8 +260,21 @@
 			isa = PBXGroup;
 			children = (
 				8184BA991F3E9995004C10D3 /* CadastroViewController.swift */,
+				81D2410A1F48E5DE00EFABE7 /* MarcaViewController.swift */,
+				81D2410C1F492F9F00EFABE7 /* LoginViewController.swift */,
+				81D241101F4B8DB000EFABE7 /* ListaModeloVeiculosViewControlletViewController.swift */,
+				81D241181F4BCDF900EFABE7 /* DetalhesMarcaVeiculoViewController.swift */,
+				81D241241F4BE56100EFABE7 /* DetalhesModeloViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		81D241141F4BC83500EFABE7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				81D241151F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodeld */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +400,7 @@
 				8184BA691F3D569E004C10D3 /* LaunchScreen.storyboard in Resources */,
 				8184BA661F3D569E004C10D3 /* Assets.xcassets in Resources */,
 				8184BA641F3D569E004C10D3 /* Main.storyboard in Resources */,
-				8184BA9C1F3EAA9C004C10D3 /* GoogleService-Info-7.plist in Resources */,
+				813996EE1F459514002466D0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,11 +565,27 @@
 			files = (
 				8184BA981F3D57E7004C10D3 /* Carro.swift in Sources */,
 				8184BA611F3D569E004C10D3 /* ViewController.swift in Sources */,
+				81D241071F48DC1700EFABE7 /* Marca.swift in Sources */,
+				81D241191F4BCDF900EFABE7 /* DetalhesMarcaVeiculoViewController.swift in Sources */,
+				81D241111F4B8DB000EFABE7 /* ListaModeloVeiculosViewControlletViewController.swift in Sources */,
 				8184BA921F3D577D004C10D3 /* CadastroView.swift in Sources */,
 				8184BA961F3D57AE004C10D3 /* Usuario.swift in Sources */,
 				8184BA5F1F3D569D004C10D3 /* AppDelegate.swift in Sources */,
+				81D241171F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodeld in Sources */,
+				813996F11F46406B002466D0 /* Extensoes.swift in Sources */,
+				81D2410B1F48E5DE00EFABE7 /* MarcaViewController.swift in Sources */,
 				8184BA941F3D579A004C10D3 /* LoginView.swift in Sources */,
 				8184BA901F3D575B004C10D3 /* SplashView.swift in Sources */,
+				81D241091F48DC5D00EFABE7 /* MarcaView.swift in Sources */,
+				81D2411F1F4BD2DB00EFABE7 /* ModeloView.swift in Sources */,
+				81D241231F4BDF2100EFABE7 /* DetalheModeloView.swift in Sources */,
+				81D2410F1F4B8BEF00EFABE7 /* ListaVeiculosMarcaView.swift in Sources */,
+				81D2411D1F4BD0A800EFABE7 /* ModeloTableViewCell.swift in Sources */,
+				81D241211F4BDE6000EFABE7 /* DetalheModelo.swift in Sources */,
+				81D2411B1F4BCFE600EFABE7 /* Modelo.swift in Sources */,
+				81D2410D1F492F9F00EFABE7 /* LoginViewController.swift in Sources */,
+				81D241131F4B91E900EFABE7 /* ListaMarcaVeiculosTableViewCell.swift in Sources */,
+				81D241251F4BE56100EFABE7 /* DetalhesModeloViewController.swift in Sources */,
 				8184BA9A1F3E9995004C10D3 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -786,6 +866,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81D241151F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81D241161F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodel */,
+			);
+			currentVersion = 81D241161F4BC86500EFABE7 /* ListaVeiculosMoobie.xcdatamodel */;
+			path = ListaVeiculosMoobie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8184BA531F3D569D004C10D3 /* Project object */;
 }

@@ -7,13 +7,13 @@ target 'ListaVeiculosMoobie' do
 
   # Pods for ListaVeiculosMoobie
 
-
-	pod 'Firebase/Core'
 	pod 'Firebase/Database'
-        pod 'Firebase/Auth'
+	pod 'Firebase/Auth'
         pod 'Firebase/Storage'
+        pod 'IQKeyboardManagerSwift'
 	pod 'Alamofire'
-
+	pod 'SwiftyJSON'
+	pod 'NVActivityIndicatorView'
 
 
   target 'ListaVeiculosMoobieTests' do

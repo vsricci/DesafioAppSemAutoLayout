@@ -18,7 +18,7 @@ class Usuario: NSObject {
     var sexo : String!
     var idade : String!
     var marcaPreferida : String!
-    
+    var imagemPerfil : String!
 
     /*
     // Only override draw() if you perform custom drawing.
